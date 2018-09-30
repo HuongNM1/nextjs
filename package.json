@@ -1,0 +1,27 @@
+{
+  "name": "git-nextjs",
+  "version": "1.0.0",
+  "description": "git repository for develop nextjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuongNM1/nextjs.git"
+  },
+  "keywords": [],
+  "author": "HuongNM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HuongNM1/nextjs/issues"
+  },
+  "homepage": "https://github.com/HuongNM1/nextjs#readme",
+  "dependencies": {
+    "next": "^7.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
