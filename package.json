@@ -1,27 +1,21 @@
 {
-  "name": "git-nextjs",
-  "version": "1.0.0",
-  "description": "git repository for develop nextjs",
-  "main": "index.js",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HuongNM1/nextjs.git"
-  },
-  "keywords": [],
-  "author": "HuongNM",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HuongNM1/nextjs/issues"
-  },
-  "homepage": "https://github.com/HuongNM1/nextjs#readme",
+  "name": "react-mvc",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "next": "^7.0.1",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-navigation-redux-helpers": "^2.0.6",
+    "react-redux": "^5.0.7",
+    "react-router": "^3.2.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }
