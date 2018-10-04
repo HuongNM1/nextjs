@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
+import { ListGroup} from 'react-bootstrap';
 import Todo from './Todo.js'
 
 export default class TodoList extends Component {
@@ -15,11 +16,11 @@ export default class TodoList extends Component {
     }
    render() {
       return (
-         <ul>
+         <ListGroup>
             {this.props.todos.map(todo =>
                <Todo key = {todo.id} {...todo} deleteItem={this.deleteItem} editItem={this.editItem}/>
             )}
-         </ul>
+         </ListGroup>
       )
    };
 }

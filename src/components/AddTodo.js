@@ -1,14 +1,15 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component, PropTypes } from 'react';
+import { Button, FormGroup, ControlLabel, FormControl  } from 'react-bootstrap';
 
 export default class AddTodo extends Component {
     render() {
         return (
             <div>
-                <input type='text' ref='input'/>
-
-                <button onClick={(e) => this.handleClick(e)}>
-                    Add
-            </button>
+                <FormGroup>
+                <ControlLabel>Add todo item</ControlLabel>
+                    <input type='text' ref='input' />
+                    <Button bsStyle="primary" onClick={(e) => this.handleClick(e)}>Add</Button>
+                </FormGroup>
             </div>
         )
     }
